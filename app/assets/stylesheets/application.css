@@ -1,9 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: White;
-  color: DarkSlateGrey;
-  font-family: Tahoma, Verdana, sans-serif;
+  background: black;
+  color: white;
+  font-family: Helvetica;
   font-size: 10pt;
 }
 div#main {
@@ -12,44 +12,44 @@ div#main {
 }
 a {
   background: transparent;
-  color: maroon;
+  color: white;
   text-decoration: underline;
   font-weight: bold;
 }
 h1 {
-  color: maroon;
+  color: white;
   font-size: 150%;
   font-style: italic;
   display: block;
   width: 100%;
-  border-bottom: 1px solid DarkSlateGrey;
+  border-bottom: 1px grey;
 }
 h1.title {
   margin: 0 0 1em;
   padding: 10px;
-  background-color: orange;
+  background-color: white;
   color: white;
-  border-bottom: 4px solid gold;
+  border-bottom: 4px solid grey;
   font-size: 2em;
   font-style: normal;
 }
 table#movies {
   margin: 10px;
   border-collapse: collapse;
-  width: 100%;
-  border-bottom: 2px solid black;
+  width: 40%;
+  border-bottom: 2px white;
 }
 table#movies th {
-  border: 2px solid white;
+  border: 2px solid black;
   font-weight: bold;
-  background-color: wheat;
+  background-color: grey;
 }
 table#movies th, table#movies td {
-  padding: 4px;
+  padding: 5px;
   text-align: left;
 }
 #notice, #warning {
-  background: rosybrown;
+  background: grey;
   margin: 1em 0;
   padding: 4px;
 }
@@ -57,5 +57,5 @@ form label {
   display: block;
   line-height: 25px;
   font-weight: bold;
-  color: maroon;
+  color: white;
 }
